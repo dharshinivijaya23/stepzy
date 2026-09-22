@@ -26,27 +26,27 @@ Main Features:
 
 Project Structure:
 stepzy/
-│
-├── index.html
-├── index.php
-│
-├── config/
-│   ├── config.php
-│   └── database.php
-│
-├── database/
-│   └── stepzy_db.sql
-│
-├── data/
-│   └── products_catalog.xml
-│
-└── api/
-    ├── get_products.php
-    ├── crud_product.php
-    ├── orders.php
-    ├── auth.php
-    ├── subscribers.php
-    └── xml_products.php
+
+    index.html
+    index.php
+
+    config/
+        config.php
+        database.php
+
+    database/
+        stepzy_db.sql
+
+    data/
+        products_catalog.xml
+
+    api/
+        get_products.php
+        crud_product.php
+        orders.php
+        auth.php
+        subscribers.php
+        xml_products.php
 
 Requirements:
 Install the following:
@@ -110,14 +110,6 @@ Check that:
 Database:
 Database Name: stepzy_db
 The database contains the tables required for products, users, orders, and other application data.
-
-Assignment Requirements:
-Requirement| Implementation
-PHP Server-Side Processing| PHP API files
-MySQL Database| "stepzy_db.sql" + "database.php"
-CRUD Operations| "crud_product.php"
-Search / Filter| "get_products.php"
-XML Implementation| "products_catalog.xml" + "xml_products.php"
 
 Run-> Start Apache + MySQL in XAMPP and open:
 http://localhost/stepzy/
