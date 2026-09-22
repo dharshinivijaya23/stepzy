@@ -56,6 +56,7 @@ Install the following:
 - Web browser
 
 Installation and Setup:
+
 Step 1: Install XAMPP
 Download and install XAMPP.
 Open XAMPP Control Panel.
@@ -119,5 +120,4 @@ Search / Filter| "get_products.php"
 XML Implementation| "products_catalog.xml" + "xml_products.php"
 
 Run-> Start Apache + MySQL in XAMPP and open:
-
 http://localhost/stepzy/
