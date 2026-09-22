@@ -25,6 +25,7 @@ Main Features:
 - Basic order management.
 
 Project Structure:
+
 stepzy/
 
     index.html
